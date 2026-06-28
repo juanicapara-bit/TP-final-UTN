@@ -9,9 +9,9 @@ function Characters({ characters }) {
     }
 
   return (
-    <div className='row' >
+    <div className='row justify-content-center g-4' >
         { characters.map((character) => (
-            <div key={character.id} className="col mb-5" >
+            <div key={character.id} className="col-auto mb-5 mx-4 d-flex justify-content-center" >
                 <div className="card character-card" >
                 <img src={character.image} alt={character.name} />
                 <div className="card-body" >

@@ -2,7 +2,7 @@ function Pagination({prev, next, onPrevious, onNext}) {
 
   return (
     <>
-    <ul className='pagination justify-content-center'>
+    <ul className='pagination justify-content-center gap-3'>
         {prev && (
             <li className='page-item'>
                 <button className='page-link' onClick={onPrevious} > Pagina previa </button>
